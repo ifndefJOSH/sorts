@@ -26,21 +26,21 @@ class Main
         System.out.println("Sorted array: ");
         printArray(array1);
 
-        /* Minimum insertion sort */
-        System.out.println("Simple min insertion sort: ");
+        /* Minimum Selection sort */
+        System.out.println("Simple min Selection sort: ");
         generateRandomList(array1, 10);
         System.out.println("Unsorted array: ");
         printArray(array1);
-        minInsertionSort(array1);
+        minSelectionSort(array1);
         System.out.println("Sorted array: ");
         printArray(array1);
 
-        /* Maximum insertion sort */
-        System.out.println("Simple max insertion sort: ");
+        /* Maximum Selection sort */
+        System.out.println("Simple max Selection sort: ");
         generateRandomList(array1, 10);
         System.out.println("Unsorted array: ");
         printArray(array1);
-        maxInsertionSort(array1);
+        maxSelectionSort(array1);
         System.out.println("Sorted array: ");
         printArray(array1);
 
@@ -117,10 +117,10 @@ class Main
         }
     }
     /*
-    Description: does a simple (min) insertion sort. Finds the smallest
+    Description: does a simple (min) Selection sort. Finds the smallest
     value in the remaining list and places it at the beginning.
     */
-    public static void minInsertionSort(int[] pArray) {
+    public static void minSelectionSort(int[] pArray) {
         int len = pArray.length;
         for (int i = 0; i < len; i++) {
             int minIndex = i;
@@ -133,10 +133,10 @@ class Main
         }
     }
     /*
-    Description: does a simple (max) insertion sort. Finds the largest
+    Description: does a simple (max) Selection sort. Finds the largest
     value in the remaining list and places it at the end.
     */
-    public static void maxInsertionSort(int[] pArray) {
+    public static void maxSelectionSort(int[] pArray) {
         int len = pArray.length;
         for (int i = len - 1; i >= 0; i--) {
             int maxIndex = i;
