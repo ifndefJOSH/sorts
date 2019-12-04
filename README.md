@@ -1,2 +1,2 @@
 # sorts
-Basic Sorting Algorithms
+Basic Sorting Algorithms. Use only for educational purposes.
