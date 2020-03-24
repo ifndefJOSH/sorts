@@ -1,2 +1,2 @@
-# sorts
-Basic Sorting Algorithms. Use only for educational purposes.
+# Random CS Stuff
+None of this is assignments. Everything here is stuff I did to teach myself or solidify a concept.
